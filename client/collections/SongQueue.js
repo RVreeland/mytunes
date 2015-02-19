@@ -8,7 +8,12 @@ var SongQueue = Songs.extend({
     }, this); */
   },
 
-  playFirst: function() {},
+  playFirst: function() {
+    this.get()
+    this.set('currentSong', this.models[0]);
+  },
+
+  currentSong: null,
 
   model: SongModel
 });
