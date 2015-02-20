@@ -18,6 +18,7 @@ var AppView = Backbone.View.extend({
 
   render: function(){
     var d = $("<div></div>");
+    d.addClass("container");
     d.append(this.libraryView.el);
     d.append(this.songQueueView.el);
 
