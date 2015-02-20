@@ -25,29 +25,6 @@ var AppModel = Backbone.Model.extend({
       this.set('currentSong', null);
     }, this);
 
-    // this.get('songQueue').on('ended', function(){
-    //   this.playNext();
-      // this.remove(song);
-      // if (this.length >= 1) {
-      //   this.playNext();
-      // } else {
-      //   this.
-      // }
-    // });
-
-    // params.library.on('dequeue ended', function(song){
-    //   var queue = this.get('songQueue');
-    //   queue.remove(song);
-
-    //   if (queue.length) {
-    //     queue.playFirst();
-    //   }
-    //   else {
-    //     this.set('currentSong' );
-    //   }
-
-    //   }, this);
-
   }
 
 });
